@@ -2,6 +2,8 @@
 
 *Neovim/Vimで直接、外部コマンドを短縮して呼び出す設定ファイル*
 
+> ※ 引数を必要とする外部コマンド、入力待ちのコマンドは省略しています。もしzinbeijettのengineをNeovim/Vimで使うならば、!engine -z ~/Sample/Sample.rb defなどと使ってください。これをVimScriptに移植することは考えていません。
+
      Jett !zinbeijett
      JettDoc !zinbeijett -h
      JettTimer !engine -d
@@ -19,3 +21,14 @@
      UP :UpdateRemotePlugins
      PC :python3 print(sys.version)
      PV :echo has('python3')
+
+deinで管理したなら、こう書きます。(init.vimに追加。)
+```vim
+" else Config: start -----------------
+
+source ~/.config/nvim/repos/github.com/takkii/vim-com/plugins/refac.vim
+
+" else Config: end -------------------
+```
+
+今後、コマンドは増えていきます。一覧表をみて判断しましょう。
