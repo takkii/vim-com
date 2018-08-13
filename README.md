@@ -2,7 +2,17 @@
 
 *Neovim/Vimで直接、外部コマンドを短縮して呼び出す設定ファイル*
 
-> ※ 引数を必要とする外部コマンド、入力待ちのコマンドは省略しています。もしzinbeijettのengineをNeovim/Vimで使うならば、!engine -z ~/Sample/Sample.rb defなどと使ってください。これをVimScriptに移植することは考えていません。
+> ※ 引数を必要とする外部コマンド、入力待ちのコマンドは省略しています。
+
+>もしzinbeijettのengineをNeovim/Vimで使うならば、
+
+>:!外部コマンド 引数1 引数2
+
+>:!engine -z ~/Sample/Sample.rb def
+
+>などと使ってください。
+
+>これをVimScriptに移植することは考えていません。
 
      Jett !zinbeijett
      JettDoc !zinbeijett -h
