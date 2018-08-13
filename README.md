@@ -1,4 +1,4 @@
-### vim-com (Neovim/Vim-command-list)
+### vim-com (Neovim/Vim-     -list)
 
 *Neovim/Vimで直接、外部コマンドを短縮して呼び出す設定ファイル*
 
@@ -10,23 +10,35 @@
 
 >これをVimScriptに移植することは考えていません。
 
-     Jett         !zinbeijett          
-     JettDoc      !zinbeijett -h
-     JettTimer    !engine -d
-     OffTweet     !tubuyaki
-     OffTweet2    !boyaki
-     ZinbeiTimer  !zinbei -d
-     Zin          !zinbei
-     ZinbeiLic    !zinbei -l
-     ZinbeiDoc    !zinbei -h
-     ZinbeiSta    !zinbei -s
-     FileView     !fl
-     CH           :CheckHealth
-     CL           :call dein#clear_state()
-     Dup          :call dein#update()
-     UP           :UpdateRemotePlugins
-     PC           :python3 print(sys.version)
-     PV           :echo has('python3')
+      Jett          !zinbeijett
+      JettDoc       !zinbeijett -h
+      JettV         !zinbeijett -v
+      JettTimer     !engine -d      
+      
+      OffTweet      !tubuyaki
+      OffTweet2     !boyaki
+      
+      ZinbeiTimer   !zinbei -d
+      Zin           !zinbei
+      ZinLic        !zinbei -l
+      ZinDoc        !zinbei -h
+      ZinSta        !zinbei -s
+      ZinV          !zinbei -v
+      
+      Fv            !fl
+      
+      CH            :CheckHealth
+      UP            :UpdateRemotePlugins
+      
+      Dcl           :call dein#clear_state()
+      Dup           :call dein#update()
+      Din           :call dein#install()
+      
+      PC            :python3 print(sys.version)
+      PV            :echo has('python3')
+      RC            :ruby puts RUBY_DESCRIPTION
+      RV            :echo has('ruby')
+
 
 deinで管理したなら、こう書きます。(init.vimに追加。)
 ```vim
