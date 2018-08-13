@@ -4,33 +4,29 @@
 
 > ※ 引数を必要とする外部コマンド、入力待ちのコマンドは省略しています。
 
->もしzinbeijettのengineをNeovim/Vimで使うならば、
-
->:!外部コマンド 引数1 引数2
+>（例）:!外部コマンド 引数1 引数2
 
 >:!engine -z ~/Sample/Sample.rb def
 
->などと使ってください。
-
 >これをVimScriptに移植することは考えていません。
 
-     Jett !zinbeijett
-     JettDoc !zinbeijett -h
-     JettTimer !engine -d
-     OffTweet !tubuyaki
-     OffTweet2 !boyaki
-     ZinbeiTimer !zinbei -d
-     Zin !zinbei
-     ZinbeiLic !zinbei -l
-     ZinbeiDoc !zinbei -h
-     ZinbeiSta !zinbei -s
-     FileView !fl
-     CH :CheckHealth
-     CL :call dein#clear_state()
-     Dup :call dein#update()
-     UP :UpdateRemotePlugins
-     PC :python3 print(sys.version)
-     PV :echo has('python3')
+     Jett         !zinbeijett          
+     JettDoc      !zinbeijett -h
+     JettTimer    !engine -d
+     OffTweet     !tubuyaki
+     OffTweet2    !boyaki
+     ZinbeiTimer  !zinbei -d
+     Zin          !zinbei
+     ZinbeiLic    !zinbei -l
+     ZinbeiDoc    !zinbei -h
+     ZinbeiSta    !zinbei -s
+     FileView     !fl
+     CH           :CheckHealth
+     CL           :call dein#clear_state()
+     Dup          :call dein#update()
+     UP           :UpdateRemotePlugins
+     PC           :python3 print(sys.version)
+     PV           :echo has('python3')
 
 deinで管理したなら、こう書きます。(init.vimに追加。)
 ```vim
