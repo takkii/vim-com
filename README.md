@@ -4,6 +4,9 @@
 ```
 ※ テキストマイニング、内部で引数を必要とする処理、入力待ちは省略しています。
 ```
+
+      [ Ruby製 自作シェル群 作業効率化 ]
+      
       [ 実行するコマンド ]    [ 実行される外部コマンド ]
       Jett                 !zinbeijett
       JettDoc              !zinbeijett -h
@@ -22,8 +25,9 @@
       
       Fv                   !fl
 
-      [ メンテナンス作業で使うコマンド類 ]
+      [ メンテナンスで使うコマンド類 ]
       
+      [短縮コマンド]         [ 実行されるコマンド ]
       CH                   CheckHealth
       UP                   UpdateRemotePlugins
       
