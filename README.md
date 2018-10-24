@@ -1,3 +1,5 @@
+![GitHub release](https://img.shields.io/github/release/takkii/build_ijaas.svg?style=flat)[![GitHub Status](https://img.shields.io/github/last-commit/takkii/tubuyaki.svg?style=flat)](GitHub)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ### vim-com (Neovim/Vim - command_list)
 
 *Neovim/Vimで、外部コマンドを短縮して呼び出すプラグイン*
