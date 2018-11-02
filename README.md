@@ -1,4 +1,4 @@
-![GitHub release](https://img.shields.io/github/release/takkii/build_ijaas.svg?style=flat)[![GitHub Status](https://img.shields.io/github/last-commit/takkii/tubuyaki.svg?style=flat)](GitHub)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![GitHub release](https://img.shields.io/github/release/takkii/build_ijaas.svg?style=flat)[![GitHub Status](https://img.shields.io/github/last-commit/takkii/tubuyaki.svg?style=flat)](GitHub)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
 ### vim-com (Neovim/Vim - command_list)
 
