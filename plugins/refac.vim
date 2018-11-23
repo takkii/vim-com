@@ -20,3 +20,4 @@ command PC :python3 print(sys.version)
 command PV :echo has('python3')
 command RC :ruby puts RUBY_DESCRIPTION
 command RV :echo has('ruby')
+command DefxF :Defx -columns=icons:filename:type

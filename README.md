@@ -26,6 +26,8 @@
       ZinV                 !zinbei -v
       
       Fv                   !fl
+      
+      DefxF                :Defx -columns=icons:filename:type
 
       [ メンテナンスで使うコマンド類 ]
       
