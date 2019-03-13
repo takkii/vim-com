@@ -1,6 +1,6 @@
-command EngD !engine -d
-command EndG !engine -g
-command EndC !engine -c
+command EnD !engine -d
+command EnG !engine -g
+command EnC !engine -c
 command Jett !zinbeijett
 command JettDoc !zinbeijett -h
 command JettTimer !engine -d

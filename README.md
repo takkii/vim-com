@@ -10,9 +10,9 @@
       [ Ruby製 自作シェル群 作業効率化 ]
       
       [ 実行するコマンド ]    [ 実行される外部コマンド ]
-      EngD                    !engine -d
-      EndG                    !engine -g
-      EndC                    !engine -c
+      EnD                    !engine -d
+      EnG                    !engine -g
+      EnC                    !engine -c
       Jett                    !zinbeijett
       JettDoc                 !zinbeijett -h
       JettV                   !zinbeijett -v
