@@ -10,39 +10,42 @@
       [ Ruby製 自作シェル群 作業効率化 ]
       
       [ 実行するコマンド ]    [ 実行される外部コマンド ]
-      Jett                 !zinbeijett
-      JettDoc              !zinbeijett -h
-      JettV                !zinbeijett -v
-      JettTimer            !engine -d      
+      EngD                    !engine -d
+      EndG                    !engine -g
+      EndC                    !engine -c
+      Jett                    !zinbeijett
+      JettDoc                 !zinbeijett -h
+      JettV                   !zinbeijett -v
+      JettTimer               !engine -d      
       
-      OffTweet             !tubuyaki
-      OffTweet2            !boyaki
+      OfTwt                   !tubuyaki
+      OfTwt2                  !boyaki
       
-      ZinbeiTimer          !zinbei -d
-      Zin                  !zinbei
-      ZinLic               !zinbei -l
-      ZinDoc               !zinbei -h
-      ZinSta               !zinbei -s
-      ZinV                 !zinbei -v
+      ZinbeiTimer             !zinbei -d
+      Zin                     !zinbei
+      ZinLic                  !zinbei -l
+      ZinDoc                  !zinbei -h
+      ZinSta                  !zinbei -s
+      ZinV                    !zinbei -v
       
-      Fv                   !fl
+      Fv                      !fl
       
-      DefxF                :Defx -columns=icons:filename:type
+      DefxF                   :Defx -columns=icons:filename:type
 
       [ メンテナンスで使うコマンド類 ]
       
       [短縮コマンド]         [ 実行されるコマンド ]
-      CH                   CheckHealth
-      UP                   UpdateRemotePlugins
+      CH                     CheckHealth
+      UP                     UpdateRemotePlugins
       
-      Dcl                  call dein#clear_state()
-      Dup                  call dein#update()
-      Din                  call dein#install()
+      Dcl                    call dein#clear_state()
+      Dup                    call dein#update()
+      Din                    call dein#install()
       
-      PC                   python3 print(sys.version)
-      PV                   echo has('python3')
-      RC                   ruby puts RUBY_DESCRIPTION
-      RV                   echo has('ruby')
+      PC                     python3 print(sys.version)
+      PV                     echo has('python3')
+      RC                     ruby puts RUBY_DESCRIPTION
+      RV                     echo has('ruby')
 
 
 ##### deinで管理したなら、こう書きます。

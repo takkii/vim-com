@@ -1,9 +1,12 @@
+command EngD !engine -d
+command EndG !engine -g
+command EndC !engine -c
 command Jett !zinbeijett
 command JettDoc !zinbeijett -h
 command JettTimer !engine -d
 command JettV !zinbeijett -v
-command OffTweet !tubuyaki
-command OffTweet2 !boyaki
+command OfTwt !tubuyaki
+command OfTwt2 !boyaki
 command ZinbeiTimer !zinbei -d
 command Zin !zinbei
 command ZinLic !zinbei -l
