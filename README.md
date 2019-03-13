@@ -45,13 +45,30 @@
       RV                   echo has('ruby')
 
 
-##### deinで管理したなら、こう書きます。(init.vimに追加。)
-```vimL
-" else Config: start ----------------------------------------------------
+##### deinで管理したなら、こう書きます。
+
+dein.toml
+```VimL
+[[plugins]]
+repo = 'takkii/vim-com'
+```
+
+Neovim / init.vim
+```VimL
+" else Config: start ---------------------
 
 source ~/.config/nvim/repos/github.com/takkii/vim-com/plugins/refac.vim
 
-" else Config: end ------------------------------------------------------
+" else Config: end -----------------------
 ```
 
-☆★ 今後、コマンドは増えていきます。一覧表をみて判断しましょう ★☆
+Vim / .vimrc
+```VimL
+" else Config: start ---------------------
+
+source ~/.vim/repos/github.com/takkii/vim-com/plugins/refac.vim
+
+" else Config: end -----------------------
+```
+
+☆★ 一覧表をみて短縮を確認しましょう ★☆
