@@ -75,6 +75,8 @@ Vim / .vimrc
 
 source ~/.vim/repos/github.com/takkii/vim-com/plugins/refac.vim
 
+or
+
 source ~/.cache/dein/repos/github.com/takkii/vim-com/plugins/refac.vim
 
 " else Config: end -----------------------
