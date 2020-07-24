@@ -62,6 +62,10 @@ Neovim / init.vim
 
 source ~/.config/nvim/repos/github.com/takkii/vim-com/plugins/refac.vim
 
+or
+
+source ~/.config/nvim/.cache/dein/repos/github.com/takkii/vim-com/plugins/refac.vim
+
 " else Config: end -----------------------
 ```
 
@@ -70,6 +74,8 @@ Vim / .vimrc
 " else Config: start ---------------------
 
 source ~/.vim/repos/github.com/takkii/vim-com/plugins/refac.vim
+
+source ~/.cache/dein/repos/github.com/takkii/vim-com/plugins/refac.vim
 
 " else Config: end -----------------------
 ```
