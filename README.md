@@ -7,6 +7,8 @@
 ※ テキストマイニング、内部で引数を必要とする処理、入力待ちは省略しています。
 ```
 
+### dein管理とzinbeiなどを使用
+
       [ Ruby製 自作シェル群 作業効率化 ]
       
       [ 実行するコマンド ]    [ 実行される外部コマンド ]
@@ -49,16 +51,23 @@
       RC                     ruby puts RUBY_DESCRIPTION
       RV                     echo has('ruby')
 
+#### ※ Dcuを使うために
 
-##### deinで管理したなら、こう書きます。
+_.vimrc / init.vim_
 
-dein.toml
+```markdown
+let g:dein#install_github_api_token = 'your github token'
+```
+
+#### dein.toml
+
 ```VimL
 [[plugins]]
 repo = 'takkii/vim-com'
 ```
 
-Neovim / init.vim
+#### Neovim / init.vim
+
 ```VimL
 " else Config: start ---------------------
 
@@ -71,7 +80,8 @@ source ~/.config/nvim/.cache/dein/repos/github.com/takkii/vim-com/plugins/refac.
 " else Config: end -----------------------
 ```
 
-Vim / .vimrc
+#### Vim / .vimrc
+
 ```VimL
 " else Config: start ---------------------
 
@@ -84,4 +94,3 @@ source ~/.cache/dein/repos/github.com/takkii/vim-com/plugins/refac.vim
 " else Config: end -----------------------
 ```
 
-☆★ 一覧表をみて短縮を確認しましょう ★☆
