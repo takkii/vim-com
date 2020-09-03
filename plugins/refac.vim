@@ -17,6 +17,7 @@ command Fv !fl
 command CH :CheckHealth
 command Dcl :call dein#clear_state()
 command Dup :call dein#update()
+command Dcu :call dein#check_update(v:true)
 command Din :call dein#install()
 command UP :UpdateRemotePlugins
 command PC :python3 print(sys.version)

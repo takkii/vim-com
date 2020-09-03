@@ -41,7 +41,9 @@
       Dcl                    call dein#clear_state()
       Dup                    call dein#update()
       Din                    call dein#install()
-      
+      Dcu                    call dein#check_update(v:true)
+      ※ call dein#check_update(v:true, ['dein.vim'])
+
       PC                     python3 print(sys.version)
       PV                     echo has('python3')
       RC                     ruby puts RUBY_DESCRIPTION
