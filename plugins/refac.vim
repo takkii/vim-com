@@ -27,5 +27,6 @@ command RV :echo has('ruby')
 command DefxF :Defx -columns=icons:filename:type
 command DebugS :lua require('dap-ruby').setup()
 command Debug :lua require('dap').continue()
-command Hi :call Himekuri()
+command DebugO :lua require('dap').repl.open()
+command VimH :call Himekuri()
 
