@@ -29,4 +29,6 @@ command Debug :lua require('dap').continue()
 command DebugSet :lua require('dap-ruby').setup()
 command DebugOp :lua require('dap').repl.open()
 command ViHi :call Himekuri()
-
+command DebugUIO require("dapui").open()
+command DebugUIC require("dapui").close()
+command DebugUIT require("dapui").toggle()
