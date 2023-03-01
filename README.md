@@ -7,3 +7,5 @@
 ```
 ※ テキストマイニング、内部で引数を必要とする処理、入力待ちは省略しています。
 ```
+
+コマンド一覧は[こちら](https://github.com/takkii/vim-com/wiki/manual)。
