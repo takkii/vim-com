@@ -1,3 +1,11 @@
+*vim-com*
+
+version: 2024/01/21
+Author: takkii <karuma.reason@gmail.com>
+License: MIT
+
+==============================================================================
+
 " Vim-Plug
 command PLI :PlugInstall
 command PLU :PlugUpdate
@@ -24,3 +32,6 @@ command RPOpen :lua require('dap').repl.open()
 command UIOpen :lua require('dapui').open()
 command UIClose :lua require('dapui').close()
 command UIToggle :lua require('dapui').toggle()
+
+==============================================================================
+
