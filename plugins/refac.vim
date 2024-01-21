@@ -1,35 +1,26 @@
-command EnD !engine -d
-command EnG !engine -g
-command EnC !engine -c
-command Jett !zinbeijett
-command JettDoc !zinbeijett -h
-command JettTimer !engine -d
-command JettV !zinbeijett -v
-command OfTwt !tubuyaki
-command OfTwt2 !boyaki
-command ZinbeiTimer !zinbei -d
-command Zin !zinbei
-command ZinLic !zinbei -l
-command ZinDoc !zinbei -h
-command ZinSta !zinbei -s
-command ZinV !zinbei -v
-command Fv !fl
+" Vim-Plug
+command PLI :PlugInstall
+command PLU :PlugUpdate
+
+" Deoplete.nvim
 command CH :CheckHealth
-command Dcl :call dein#clear_state()
-command Dup :call dein#update()
-command Dcu :call dein#check_update(v:true)
-command Din :call dein#install()
 command UP :UpdateRemotePlugins
 command PC :python3 print(sys.version)
 command PV :echo has('python3')
 command RC :ruby puts RUBY_DESCRIPTION
 command RV :echo has('ruby')
+
+" Defx-Icon
 command DefxF :Defx -columns=icons:filename:type
-command ViHi :call Himekuri()
-command Debug :lua require 'dap'.continue()
-command Step :lua require 'dap'.continue()
-command BreakPoint :lua require 'dap'.toggle_breakpoint()
+
+" Himekuri, denops and VimScript
+command DH :Himekuri
+command VH :call Himekuri()
+
+" nvim-dap | UI
+command Debug :lua require('dap').continue()
+command BreakPoint :lua require('dap').toggle_breakpoint()
 command RPOpen :lua require('dap').repl.open()
-command UIOpen :lua require("dapui").open()
-command UIClose :lua require("dapui").close()
-command UIToggle :lua require("dapui").toggle()
+command UIOpen :lua require('dapui').open()
+command UIClose :lua require('dapui').close()
+command UIToggle :lua require('dapui').toggle()
